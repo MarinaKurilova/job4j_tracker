@@ -28,7 +28,9 @@ public class Doctor extends Profession {
         return licence;
     }
 
-    public Diagnosis heal(Pacient pacient) { }
+    public Diagnosis heal(Pacient pacient) {
+        return null; }
 
-    public SickList write(Diagnosis diagnosis) { }
+    public SickList write(Diagnosis diagnosis) {
+        return null; }
 }

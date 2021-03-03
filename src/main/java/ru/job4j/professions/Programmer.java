@@ -22,8 +22,11 @@ public class Programmer extends Engineer {
         return computer;
     }
 
-    public Programm write(Code code) { }
+    public Programm write(Code code) {
+        return null; }
 
-    public Report fix(Bug bug) { }
+    public Report fix(Bug bug) {
+        return null;
+    }
 
 }

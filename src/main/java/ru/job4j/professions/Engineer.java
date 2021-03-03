@@ -28,5 +28,7 @@ public class Engineer extends Profession {
         return sphere;
     }
 
-    public Scheme develop(Infomation info) { }
+    public Scheme develop(Infomation info) {
+        return null;
+    }
 }

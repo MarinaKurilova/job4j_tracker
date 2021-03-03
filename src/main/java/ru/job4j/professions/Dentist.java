@@ -22,7 +22,10 @@ public class Dentist extends Doctor {
         return mirror;
     }
 
-    public Smile repair(Tooth tooth) { }
+    public Smile repair(Tooth tooth) {
+        return null; }
 
-    public TeethBraces put(Smile smile) { }
+    public TeethBraces put(Smile smile) {
+        return null;
+    }
 }

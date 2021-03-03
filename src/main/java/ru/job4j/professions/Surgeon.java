@@ -22,7 +22,11 @@ public class Surgeon extends Doctor {
         return scalpel;
     }
 
-    public Surgery operate(Diagnosis diagnosis) { }
+    public Surgery operate(Diagnosis diagnosis) {
+        return null;
+    }
 
-    public Advice ask(Traumatologist traumatologist) { }
+    public Advice ask(Traumatologist traumatologist) {
+        return null;
+    }
 }

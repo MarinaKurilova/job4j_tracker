@@ -22,8 +22,10 @@ public class Builder extends Engineer {
         return hammer;
     }
 
-    public House build(Brick brick) { }
+    public House build(Brick brick) {
+        return null; }
 
-    public Hole dig(Shovel shovel) { }
+    public Hole dig(Shovel shovel) {
+        return null; }
 
 }
