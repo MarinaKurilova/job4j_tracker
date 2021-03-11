@@ -4,9 +4,9 @@ import java.time.format.DateTimeFormatter;
 
 public class StartUI {
     public static void main(String[] args) {
-        Item item = new Item();
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MMMM-EEEE-yyyy HH:mm:ss");
-        String createdFormat = item.getLocalDateTime().format(formatter);
-        System.out.println(createdFormat);
+        Tracker tracker = new Tracker();
+        Item item = new Item(1, "Task");
+        tracker.add(item);
+        System.out.println(tracker.findById(1));
     }
 }
