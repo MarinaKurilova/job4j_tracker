@@ -9,10 +9,12 @@ public class StartUI {
         Item item = new Item(1, "Task");
         Item item2 = new Item(2, "Question");
         Item item3 = new Item(3, "Task");
+        Item item4 = new Item(4, "Answer");
         tracker.add(item);
         tracker.add(item2);
         tracker.add(item3);
         System.out.println(tracker.findById(1));
         System.out.println(Arrays.toString(tracker.findByName("Task")));
+        System.out.println(item4);
     }
 }
